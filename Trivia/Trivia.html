@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  
+  <div class="container">
+    <h2>Welcome to the basic trivia game...</h2>
+
+    <div id="show-number"></div>
+
+    <div id="showright"></div>
+
+    <div id="showwrong"></div>
+
+    <br>
+    <p>He mentions his hatred for them in "Raiders of the Lost Ark".</p>
+    <form>
+      <label class="radio-inline1">
+        <input type="radio" id="Spiders" value="Spiders" onclick="spiders()">Spiders
+      </label>
+      <label class="radio-inline1">
+        <input type="radio" id="Dog" value="Dog" onclick="dog()">Dog
+      </label>
+      <label class="radio-inline1">
+        <input type="radio" id="Snakes" value="Snakes" onclick="snakes()">Snakes
+      </label>
+    </form>
+  </div>
+  <br>
+  <div class="container">
+    <p>Who plays Indiana Jones in the original three movies?</p>
+    <form>
+      <label class="radio-inline2">
+        <input type="radio" id="Harrison Ford" value="Harrison Ford" onclick="harrisonFord()">Harrison Ford
+      </label>
+      <label class="radio-inline2">
+        <input type="radio" id="Mel Gibson" value="Mel Gibson" onclick="melGibson()">Mel Gibson
+      </label>
+      <label class="radio-inline2">
+          <input type="radio" id="Sean Connery" value="Sean Connery" onclick="seanConnery()">Sean Connery
+        </label>
+    </form>
+  </div>
+
+  <script src="assets/javascript/trivia.js"></script>
+
+</body>
+
+</html>
